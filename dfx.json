@@ -1,0 +1,26 @@
+{
+  "canisters": {
+    "aviator_backend": {
+      "main": "src/aviator_backend/main.mo",
+      "type": "motoko"
+    },
+    "aviator_frontend": {
+      "dependencies": [
+        "aviator_backend"
+      ],
+      "source": [
+        "src/aviator_frontend/dist"
+      ],
+      "type": "assets",
+      "workspace": "aviator_frontend"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
