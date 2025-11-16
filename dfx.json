@@ -4,6 +4,10 @@
       "main": "src/aviator_backend/main.mo",
       "type": "motoko"
     },
+    "betting_backend": {
+      "main": "src/aviator_backend/betting_backend/main.mo",
+      "type": "motoko"
+    },
     "aviator_frontend": {
       "dependencies": [
         "aviator_backend"
