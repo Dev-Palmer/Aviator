@@ -8,6 +8,10 @@
       "main": "src/aviator_backend/betting_backend/main.mo",
       "type": "motoko"
     },
+    "game_backend": {
+      "main": "src/aviator_backend/game_backend/main.mo",
+      "type": "motoko"
+    },
     "aviator_frontend": {
       "dependencies": [
         "aviator_backend"
