@@ -16,6 +16,10 @@
       "main": "src/aviator_backend/rng_backend/main.mo",
       "type": "motoko"
     },
+    "user_backend": {
+      "main": "src/aviator_backend/user_backend/main.mo",
+      "type": "motoko"
+    },
     "aviator_frontend": {
       "dependencies": [
         "aviator_backend"
