@@ -1,4 +1,4 @@
-# Aviator Game - ckBTC Edition | Encode Hackathon
+# Aviator Game - BTC Edition | Encode Hackathon
 
 A fully decentralized Aviator-style crash game built on the Internet Computer Protocol (ICP) using Motoko and integrated with ckBTC for seamless Bitcoin-based betting.
 
