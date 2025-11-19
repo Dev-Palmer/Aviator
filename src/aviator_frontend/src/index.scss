@@ -8,10 +8,124 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #1a1a1a;
   color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 2rem;
+  background-color: #2a2a2a;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  text-align: center;
+}
+
+h1 {
+  color: #00e676;
+  margin-bottom: 1.5rem;
+}
+
+.game-area {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.game-display {
+  background-color: #3a3a3a;
+  padding: 3rem;
+  border-radius: 8px;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3rem;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+.game-display p {
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.input-group {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.controls input {
+  background-color: #4a4a4a;
+  border: 1px solid #555;
+  padding: 0.7rem;
+  border-radius: 5px;
+  color: #f0f0f0;
+  width: 120px;
+}
+
+.controls button {
+  background-color: #00e676;
+  border: none;
+  padding: 0.7rem 1.2rem;
+  border-radius: 5px;
+  color: #1a1a1a;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.controls button:hover {
+  background-color: #00c853;
+}
+
+.cashout {
+  background-color: #ff5555 !important;
+}
+
+.cashout:hover {
+  background-color: #cc0000 !important;
+}
+
+.history {
+  background-color: #3a3a3a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.history h3 {
+  color: #f0f0f0;
+  margin-bottom: 1rem;
+}
+
+.rounds-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  justify-content: center;
+  max-height: 100px;
+  overflow-y: auto;
+}
+
+.round-item {
+  background-color: #4a4a4a;
+  padding: 0.5rem 0.8rem;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: bold;
 }
